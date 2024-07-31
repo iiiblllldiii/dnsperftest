@@ -44,7 +44,7 @@ For macOS using homebrew:
  $ bash ./dnstest.sh 
                test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
 shecan               7 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 23 ms   1000 ms 11 ms   11 ms     405.80
-begzar               1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms   1000.00
+begzar               3 ms    103 ms  7 ms    1 ms    3 ms    107 ms  3 ms    7 ms    3 ms    7 ms      24.40
 electro              7 ms    75 ms   3 ms    3 ms    79 ms   3 ms    87 ms   87 ms   7 ms    95 ms     44.60
 cloudflare           3 ms    87 ms   3 ms    3 ms    1000 ms 79 ms   15 ms   87 ms   3 ms    3 ms      128.30
 level3               3 ms    83 ms   1 ms    3 ms    1000 ms 103 ms  3 ms    83 ms   3 ms    3 ms      128.50
