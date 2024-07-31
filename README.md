@@ -1,6 +1,6 @@
 # DNS Performance Test
 
-Shell script to test the performance of the most popular DNS resolvers from your location.
+اسکریپت شل برای تست و آزمایش عملکرد محبوب‌ترین DNS های خارجی و داخلی روی سرور شما
 
 Includes by default:
  * Shecan 178.22.122.100
