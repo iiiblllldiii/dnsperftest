@@ -3,14 +3,14 @@
 اسکریپت شل برای تست و آزمایش عملکرد محبوب‌ترین DNS های خارجی و داخلی روی سرور شما
 
 Includes by default:
- * Shecan 178.22.122.100
- * Begzar 185.55.225.25
- * Electro 78.157.42.100
- * CloudFlare 1.1.1.1
- * Level3 4.2.2.1
- * Google 8.8.8.8
- * Quad9 9.9.9.9
- * Freenom 80.80.80.80
+ * Shecan
+ * Begzar
+ * Electro
+ * CloudFlare
+ * Level3
+ * Google
+ * Quad9
+ * Freenom
  * OpenDNS
  * Norton
  * CleanBrowsing
