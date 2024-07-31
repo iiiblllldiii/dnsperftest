@@ -41,7 +41,7 @@ For macOS using homebrew:
 # Utilization
 
 ``` 
- $ git clone --depth=1 https://github.com/cleanbrowsing/dnsperftest/
+ $ git clone --depth=1 https://github.com/iiiblllldiii/dnsperftest/
  $ cd dnsperftest
  $ bash ./dnstest.sh 
                test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
