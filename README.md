@@ -3,6 +3,11 @@
 Shell script to test the performance of the most popular DNS resolvers from your location.
 
 Includes by default:
+ * Shecan 178.22.122.100
+ * Begzar 185.55.225.25
+ * 403 10.202.10.202
+ * Radar 10.202.10.10
+ * Electro 78.157.42.100
  * CloudFlare 1.1.1.1
  * Level3 4.2.2.1
  * Google 8.8.8.8
