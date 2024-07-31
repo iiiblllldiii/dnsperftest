@@ -43,7 +43,7 @@ For macOS using homebrew:
  cd dnsperftest
  bash ./dnstest.sh
 ```
-examples
+examples:
 
                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
 shecan               1 ms    1 ms    35 ms   7 ms    3 ms    3 ms    15 ms   1 ms    3 ms    1 ms      7.00
@@ -62,7 +62,6 @@ adguard              1 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 3 ms    100
 neustar              19 ms   95 ms   7 ms    7 ms    1000 ms 111 ms  107 ms  99 ms   15 ms   11 ms     147.10
 comodo               1 ms    87 ms   3 ms    3 ms    1000 ms 83 ms   1 ms    87 ms   3 ms    3 ms      127.10
 nextdns              99 ms   91 ms   7 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   1 ms    1 ms      130.30
-```
 
 To sort with the fastest first, add `sort -k 22 -n` at the end of the command:
 
