@@ -10,8 +10,6 @@ NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/
 PROVIDERSV4="
 185.51.200.2#shecan
 185.55.226.26#begzar
-10.202.10.202#403
-10.202.10.10#radar
 78.157.42.100#electro
 1.1.1.1#cloudflare 
 4.2.2.1#level3 
