@@ -8,6 +8,11 @@ command -v bc > /dev/null || { echo "error: bc was not found. Please install bc.
 NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/\(.*\)/&#&/'`
 
 PROVIDERSV4="
+178.22.122#shecan
+185.55.225.25#begzar
+10.202.10.202#403
+10.202.10.10#radar
+78.157.42.100#electro
 1.1.1.1#cloudflare 
 4.2.2.1#level3 
 8.8.8.8#google 
