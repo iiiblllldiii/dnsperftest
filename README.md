@@ -127,3 +127,5 @@ If you receive an error `$'\r': command not found`, convert the file to a Linux-
     tr -d '\15\32' < dnstest.sh > dnstest-2.sh
     
 Then run `bash ./dnstest-2.sh`
+
+Tanks For https://github.com/cleanbrowsing
