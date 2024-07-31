@@ -45,16 +45,24 @@ For macOS using homebrew:
  $ cd dnsperftest
  $ bash ./dnstest.sh 
                test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
-cloudflare     1 ms    1 ms    1 ms    2 ms    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms      1.10
-google         22 ms   1 ms    4 ms    24 ms   1 ms    19 ms   3 ms    56 ms   21 ms   21 ms     17.20
-quad9          10 ms   19 ms   10 ms   10 ms   10 ms   10 ms   10 ms   10 ms   10 ms   55 ms     15.40
-opendns        39 ms   2 ms    2 ms    20 ms   2 ms    72 ms   2 ms    39 ms   39 ms   3 ms      22.00
-norton         2 ms    2 ms    2 ms    2 ms    1 ms    2 ms    2 ms    1 ms    2 ms    2 ms      1.80
-cleanbrowsing  11 ms   14 ms   11 ms   11 ms   10 ms   10 ms   11 ms   36 ms   11 ms   13 ms     13.80
-yandex         175 ms  209 ms  175 ms  181 ms  188 ms  179 ms  178 ms  179 ms  177 ms  208 ms    184.90
-adguard        200 ms  200 ms  200 ms  199 ms  202 ms  200 ms  202 ms  200 ms  199 ms  248 ms    205.00
-neustar        2 ms    2 ms    2 ms    2 ms    1 ms    2 ms    2 ms    2 ms    2 ms    2 ms      1.90
-comodo         21 ms   22 ms   22 ms   22 ms   22 ms   22 ms   22 ms   21 ms   22 ms   24 ms     22.00
+shecan               7 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 23 ms   1000 ms 11 ms   11 ms     405.80
+begzar               1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms   1000.00
+403                  83 ms   43 ms   15 ms   23 ms   19 ms   107 ms  3 ms    95 ms   35 ms   15 ms     43.80
+radar                7 ms    79 ms   3 ms    3 ms    3 ms    107 ms  3 ms    7 ms    3 ms    11 ms     22.60
+electro              7 ms    75 ms   3 ms    3 ms    79 ms   3 ms    87 ms   87 ms   7 ms    95 ms     44.60
+cloudflare           3 ms    87 ms   3 ms    3 ms    1000 ms 79 ms   15 ms   87 ms   3 ms    3 ms      128.30
+level3               3 ms    83 ms   1 ms    3 ms    1000 ms 103 ms  3 ms    83 ms   3 ms    3 ms      128.50
+google               3 ms    27 ms   3 ms    3 ms    1000 ms 235 ms  7 ms    163 ms  3 ms    3 ms      144.70
+quad9                43 ms   43 ms   3 ms    1 ms    3 ms    203 ms  3 ms    1000 ms 1000 ms 1 ms      230.00
+freenom              91 ms   251 ms  1 ms    11 ms   1000 ms 251 ms  3 ms    1000 ms 3 ms    7 ms      261.80
+opendns              3 ms    43 ms   1 ms    3 ms    1000 ms 243 ms  3 ms    155 ms  3 ms    1 ms      145.50
+norton               19 ms   103 ms  19 ms   11 ms   1000 ms 1000 ms 3 ms    87 ms   3 ms    3 ms      224.80
+cleanbrowsing        1 ms    95 ms   7 ms    3 ms    1000 ms 95 ms   15 ms   87 ms   7 ms    3 ms      131.30
+yandex               3 ms    55 ms   3 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   3 ms    3 ms      117.10
+adguard              1 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 3 ms    1000 ms 3 ms    3 ms      401.60
+neustar              19 ms   95 ms   7 ms    7 ms    1000 ms 111 ms  107 ms  99 ms   15 ms   11 ms     147.10
+comodo               1 ms    87 ms   3 ms    3 ms    1000 ms 83 ms   1 ms    87 ms   3 ms    3 ms      127.10
+nextdns              99 ms   91 ms   7 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   1 ms    1 ms      130.30
 ```
 
 To sort with the fastest first, add `sort -k 22 -n` at the end of the command:
