@@ -5,8 +5,6 @@ Shell script to test the performance of the most popular DNS resolvers from your
 Includes by default:
  * Shecan 178.22.122.100
  * Begzar 185.55.225.25
- * 403 10.202.10.202
- * Radar 10.202.10.10
  * Electro 78.157.42.100
  * CloudFlare 1.1.1.1
  * Level3 4.2.2.1
@@ -47,8 +45,6 @@ For macOS using homebrew:
                test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
 shecan               7 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 23 ms   1000 ms 11 ms   11 ms     405.80
 begzar               1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms   1000.00
-403                  83 ms   43 ms   15 ms   23 ms   19 ms   107 ms  3 ms    95 ms   35 ms   15 ms     43.80
-radar                7 ms    79 ms   3 ms    3 ms    3 ms    107 ms  3 ms    7 ms    3 ms    11 ms     22.60
 electro              7 ms    75 ms   3 ms    3 ms    79 ms   3 ms    87 ms   87 ms   7 ms    95 ms     44.60
 cloudflare           3 ms    87 ms   3 ms    3 ms    1000 ms 79 ms   15 ms   87 ms   3 ms    3 ms      128.30
 level3               3 ms    83 ms   1 ms    3 ms    1000 ms 103 ms  3 ms    83 ms   3 ms    3 ms      128.50
