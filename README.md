@@ -27,13 +27,13 @@ You need to install bc and dig.
 For Ubuntu:
 
 ```
- $ sudo apt-get install bc dnsutils
+  sudo apt-get install bc dnsutils
 ```
 
 For macOS using homebrew:
 
 ```
- $ brew install bc bind
+  brew install bc bind
 ```
 
 # Utilization
