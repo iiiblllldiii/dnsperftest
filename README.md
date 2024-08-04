@@ -64,6 +64,7 @@ adguard              1 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 3 ms    100
 neustar              19 ms   95 ms   7 ms    7 ms    1000 ms 111 ms  107 ms  99 ms   15 ms   11 ms     147.10
 comodo               1 ms    87 ms   3 ms    3 ms    1000 ms 83 ms   1 ms    87 ms   3 ms    3 ms      127.10
 nextdns              99 ms   91 ms   7 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   1 ms    1 ms      130.30
+```
 
 To sort with the fastest first, add `sort -k 22 -n` at the end of the command:
 
@@ -126,6 +127,7 @@ yandex-v6            178 ms  179 ms  178 ms  179 ms  178 ms  178 ms  178 ms  179
 yandex               178 ms  178 ms  177 ms  179 ms  178 ms  174 ms  180 ms  178 ms  179 ms  222 ms    182.30
 
 ```
+
 
 
 # For Windows users using the Linux subsystem
