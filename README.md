@@ -49,22 +49,23 @@ examples:
 ```
 $ bash ./dnstest.sh
                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
-shecan               1 ms    1 ms    35 ms   7 ms    3 ms    3 ms    15 ms   1 ms    3 ms    1 ms      7.00
-begzar               3 ms    103 ms  7 ms    1 ms    3 ms    107 ms  3 ms    7 ms    3 ms    7 ms      24.40
-electro              1 ms    3 ms    7 ms    1 ms    7 ms    15 ms   19 ms   75 ms   7 ms    75 ms     21.00
-cloudflare           3 ms    87 ms   3 ms    3 ms    1000 ms 79 ms   15 ms   87 ms   3 ms    3 ms      128.30
-level3               3 ms    83 ms   1 ms    3 ms    1000 ms 103 ms  3 ms    83 ms   3 ms    3 ms      128.50
-google               3 ms    27 ms   3 ms    3 ms    1000 ms 235 ms  7 ms    163 ms  3 ms    3 ms      144.70
-quad9                43 ms   43 ms   3 ms    1 ms    3 ms    203 ms  3 ms    1000 ms 1000 ms 1 ms      230.00
-freenom              91 ms   251 ms  1 ms    11 ms   1000 ms 251 ms  3 ms    1000 ms 3 ms    7 ms      261.80
-opendns              3 ms    43 ms   1 ms    3 ms    1000 ms 243 ms  3 ms    155 ms  3 ms    1 ms      145.50
-norton               19 ms   103 ms  19 ms   11 ms   1000 ms 1000 ms 3 ms    87 ms   3 ms    3 ms      224.80
-cleanbrowsing        1 ms    95 ms   7 ms    3 ms    1000 ms 95 ms   15 ms   87 ms   7 ms    3 ms      131.30
-yandex               3 ms    55 ms   3 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   3 ms    3 ms      117.10
-adguard              1 ms    1000 ms 3 ms    3 ms    1000 ms 1000 ms 3 ms    1000 ms 3 ms    3 ms      401.60
-neustar              19 ms   95 ms   7 ms    7 ms    1000 ms 111 ms  107 ms  99 ms   15 ms   11 ms     147.10
-comodo               1 ms    87 ms   3 ms    3 ms    1000 ms 83 ms   1 ms    87 ms   3 ms    3 ms      127.10
-nextdns              99 ms   91 ms   7 ms    3 ms    1000 ms 51 ms   3 ms    47 ms   1 ms    1 ms      130.30
+shecan               88 ms   1000 ms 84 ms   80 ms   84 ms   1000 ms 88 ms   1000 ms 88 ms   80 ms     359.20
+begzar               88 ms   176 ms  84 ms   84 ms   80 ms   172 ms  80 ms   168 ms  84 ms   84 ms     110.00
+electro              84 ms   84 ms   80 ms   76 ms   80 ms   84 ms   76 ms   168 ms  80 ms   92 ms     90.40
+cloudflare           4 ms    8 ms    4 ms    4 ms    8 ms    8 ms    8 ms    8 ms    4 ms    4 ms      6.00
+level3               16 ms   16 ms   16 ms   12 ms   16 ms   12 ms   16 ms   20 ms   12 ms   16 ms     15.20
+google               8 ms    4 ms    8 ms    8 ms    4 ms    24 ms   8 ms    8 ms    4 ms    8 ms      8.40
+quad9                4 ms    4 ms    16 ms   4 ms    12 ms   4 ms    4 ms    8 ms    1 ms    12 ms     6.90
+safedns              8 ms    4 ms    8 ms    8 ms    8 ms    4 ms    8 ms    8 ms    8 ms    4 ms      6.80
+freenom              128 ms  132 ms  128 ms  132 ms  132 ms  132 ms  144 ms  132 ms  132 ms  128 ms    132.00
+opendns              28 ms   8 ms    8 ms    8 ms    4 ms    92 ms   4 ms    12 ms   8 ms    4 ms      17.60
+norton               4 ms    8 ms    4 ms    8 ms    8 ms    4 ms    4 ms    4 ms    8 ms    8 ms      6.00
+cleanbrowsing        8 ms    8 ms    8 ms    4 ms    4 ms    4 ms    4 ms    8 ms    8 ms    4 ms      6.00
+yandex               52 ms   48 ms   52 ms   52 ms   136 ms  56 ms   56 ms   60 ms   52 ms   48 ms     61.20
+adguard              1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms 1000 ms   1000.00
+neustar              12 ms   12 ms   12 ms   12 ms   12 ms   12 ms   12 ms   12 ms   12 ms   12 ms     12.00
+comodo               8 ms    4 ms    12 ms   4 ms    8 ms    8 ms    8 ms    8 ms    8 ms    8 ms      7.60
+nextdns              60 ms   60 ms   4 ms    4 ms    8 ms    4 ms    4 ms    8 ms    8 ms    4 ms      16.40
 ```
 
 To sort with the fastest first, add `sort -k 22 -n` at the end of the command:
