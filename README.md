@@ -10,6 +10,7 @@ Includes by default:
  * Level3
  * Google
  * Quad9
+ * SafeDNS
  * Freenom
  * OpenDNS
  * Norton
