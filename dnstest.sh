@@ -15,6 +15,7 @@ PROVIDERSV4="
 4.2.2.1#level3 
 8.8.8.8#google 
 9.9.9.9#quad9 
+195.46.39.39#safedns
 80.80.80.80#freenom 
 208.67.222.123#opendns 
 199.85.126.20#norton 
